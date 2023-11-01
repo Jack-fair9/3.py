@@ -12,23 +12,18 @@ second_number = float(second_input)
 
 
 def CalcAdd ():
-    result = first_number + second_number
+    if operation == "add":
+        result = first_number + second_number
     return result
 def CalcSubtract():
-    result = first_number - second_number
+    if operation == "subtract":
+        result = first_number - second_number
     return result
 def CalcMultiply():
-    result = first_number * second_number
+    if operation == "multiply":
+        result = first_number * second_number
     return result
 def CalcDivide():
-    result = first_number / second_number
+    if operation == "divide":
+        result = first_number / second_number
     return result
-
-if operation == "add":
-    result = CalcAdd()
-elif operation == "subtract":
-    result = CalcSubtract()
-elif operation == "multiply":
-    result = CalcMultiply()
-elif operation == "divide":
-    result = CalcDivide()
