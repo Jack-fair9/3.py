@@ -6,5 +6,7 @@ first_input = input("Enter in first number: ")
 second_input = input("Enter in second number: ")
 operation = input("Would you like to add/subtract/multiple/divide: ")
 
+first_number = float(first_input)
+second_number = float(second_input)
 
-result = calculator(first_input, second_input)
+calculator(operation)
